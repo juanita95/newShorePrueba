@@ -1,0 +1,23 @@
+@import "src/assets/scss/basis/index";
+
+.table{
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.back-img{
+  margin: 3% 3%;
+}
+
+.back-page{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+@import "colors";
+
+.search{
+  width: 100%;
+  border: none;
+  display: inline-block;
+  margin: 0.1rem 0 1rem;
+  line-height: 1.5;
+  padding: 0 0.8rem;
+  color: $input;
+  background: white;
+  border-radius: 30px;
+  box-sizing: border-box;
+  outline: none;
+  height: 2.1rem;
+  max-width: 15rem;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 8px #0003;
+}

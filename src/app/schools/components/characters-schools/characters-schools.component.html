@@ -1,0 +1,17 @@
+<!-- back to previous page -->
+<header class="back-page" (click)="backNavigate()">
+  <img class="back-img" src="../../../../assets/images/back.svg">
+  <h3 class="text-secondary-custom title">Back</h3>
+</header>
+
+<!-- table -->
+<app-table
+  class="table"
+  *ngIf="characters.length !== 0"
+  [columns]="columnsUserAdmin"
+  [columnsName]="columnsNames"
+  [arrayElements]="characters"
+  [title]="title"
+  [description]="description"
+  [columnImg]="columnImg"
+></app-table>

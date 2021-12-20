@@ -1,0 +1,20 @@
+<!-- title school section -->
+
+<header>
+  <h2 class="text-primary-custom schools-text">
+    Select a house to see its members and the purity of its blood
+  </h2>
+</header>
+
+<!-- cards to select school -->
+
+<article class="row row-cols-1 row-cols-md-3 g-4 m-5">
+  <div class="col" *ngFor="let house of houses">
+    <main class="card-houses" (click)="getHouseSelect(house)">
+      <img src="../../../../assets/images/houses.jpg" class="card-img-top">
+      <body class="card-body">
+      <h5 class="text-secondary text-card">{{house}}</h5>
+      </body>
+    </main>
+  </div>
+</article>

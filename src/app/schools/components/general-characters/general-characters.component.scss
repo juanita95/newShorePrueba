@@ -1,0 +1,29 @@
+@import "src/assets/scss/basis/index";
+
+.text-houses{
+  text-align: center;
+}
+
+.card-houses{
+  cursor: pointer;
+  box-shadow: 0 0 4px #00000040;
+  border-radius: 15px;
+}
+
+.card-img-top{
+  border-radius: 15px 15px 0px 0px;
+}
+
+.card-body{
+  border-radius: 15px;
+}
+
+.schools-text{
+  display: flex;
+  justify-content: center;
+  margin: 5% 15%;
+}
+
+.text-card{
+  text-align: center;
+}
